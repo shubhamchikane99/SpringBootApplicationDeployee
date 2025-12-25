@@ -15,7 +15,6 @@ public class HelloController {
 	
 
 	
-	
 @GetMapping("/api") 
 	public String hello() { 
 		return "API is calling!"; 
