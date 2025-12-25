@@ -11,7 +11,7 @@ public class HelloController {
 		return "Hello from Spring Boot!";      
 	}  
   
-@GetMapping("/api") 
+   @GetMapping("/api") 
 	public String hello() { 
 		return "API is calling!"; 
 	}
