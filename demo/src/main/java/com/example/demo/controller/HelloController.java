@@ -13,7 +13,7 @@ public class HelloController {
 
  
 
-@GetMapping("/api")
+@GetMapping("/api") 
 	public String hello() { 
 		return "API is calling!";
 	}
