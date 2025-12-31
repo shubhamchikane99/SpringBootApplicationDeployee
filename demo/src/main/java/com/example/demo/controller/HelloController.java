@@ -1,26 +1,96 @@
+
 package com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController { 
-
+public class HelloController {   
+	
 	@GetMapping("/hello")
-	public String hello() { 
-		return "Hello from Spring Boot!";    
-	} 
+	public String hello() {  
+		return "Hello from Spring Boot!";      
+	}  
 
-	@GetMapping("/test")
+
+
+	
+
+	
+	
+	
+	
+
+	
+	
+
+	
+
+	
+	
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+   @GetMapping("/api") 
 	public String hello() { 
-		return "Hello from Spring Boot!";
+		return "API is calling!"; 
 	}
-
-@GetMapping("/api")
-	public String hello() { 
-		return "API is calling!";
-	}
-
+ 
 	
 } 
 
